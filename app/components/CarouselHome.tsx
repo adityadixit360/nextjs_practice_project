@@ -72,11 +72,11 @@ const Carousel = ({
         </div>
       </div>
 
-      <div className="flex justify-center mt-3">
-        <button onClick={prevSlide} className="border px-4 py-2 font-bold">
+      <div className="flex justify-center mt-3 gap-3">
+        <button onClick={prevSlide} className="border-2 bg-white shadow-md hover:shadow-lg px-4 py-2 font-bold">
           {"<"}
         </button>
-        <button onClick={nextSlide} className="border px-4 py-2 font-bold">
+        <button onClick={nextSlide} className="border-2 bg-white shadow-md hover:shadow-lg px-4 py-2 font-bold">
           {">"}
         </button>
       </div>
